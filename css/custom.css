@@ -12088,4 +12088,18 @@ div.card-body .card-text {
   align-content: flex-start;
 }
 
+/*----------------------------------------------------------------------------------*/
+/*SECCION NOTICIAS*/
+/*----------------------------------------------------------------------------------*/
+div.noticias {
+  background-color: var(--black__1);
+}
+div.noticias section.noticias h2, div.noticias section.noticias .h2 {
+  padding: 40px 0px;
+}
+div.noticias .container__noticias {
+  display: flex;
+  flex: 1;
+}
+
 /*# sourceMappingURL=custom.css.map */

@@ -272,3 +272,23 @@ div.card-body {
 #portada__data {
     align-content: flex-start;
 }
+
+/*----------------------------------------------------------------------------------*/
+/*SECCION NOTICIAS*/
+/*----------------------------------------------------------------------------------*/
+div.noticias {
+
+    background-color: var(--black__1);
+
+    section.noticias {
+        h2 {
+            padding: 40px 0px;
+        }
+    }
+
+    .container__noticias {
+        display: flex;
+        flex: 1;
+    }
+
+}
