@@ -38,4 +38,24 @@
 
 /*----------------------------------------------------------------------------------*/
 
+/* VARIABLES TIPOGRÁFICAS */
+$font-title: "Monument-Extended";
+$font-text: "light";
+
+/*----------------------------------------------------------------------------------*/
+
+/* COLORES */
+$primary: #226412;
+$secondary: #D9D9D9;
+
+:root {
+    --green__primary: #226412;
+    --green__dark: #102A09;
+    --green__light: #68A25A;
+    --black__1: #060606;
+    --white__1: #D9D9D9;
+
+    --navbar--toggler__icon: url("../assets/icons/navbar-toggler-icon.png");
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";
