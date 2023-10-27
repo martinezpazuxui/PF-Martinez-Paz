@@ -12232,4 +12232,19 @@ div.contacto div.contacto-formulario p {
   font-size: small;
 }
 
+/*----------------------------------------------------------------------------------*/
+/*FOOTER*/
+/*----------------------------------------------------------------------------------*/
+div.footer {
+  background-color: var(--black__1);
+}
+
+div.footer {
+  font-family: "medium";
+}
+
+.footer__text h5 li, .footer__text .h5 li {
+  color: var(--white__1) !important;
+}
+
 /*# sourceMappingURL=custom.css.map */
