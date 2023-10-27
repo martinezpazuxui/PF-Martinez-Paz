@@ -317,3 +317,23 @@ div.programacion {
         font-size: smaller;
     }
 }
+
+/*----------------------------------------------------------------------------------*/
+/*BANNER*/
+/*----------------------------------------------------------------------------------*/
+div.banner {
+    background-color: var(--green__primary);
+
+    .banner__solid {
+        color: var(--white__1);
+        width: 40px;
+    }
+
+    .titulo--banner {
+        color: #D9D9D9;
+        font-family: "Monument-Extended";
+        text-align: center;
+        padding: 40px 0px;
+        margin-bottom: 0px;
+    }
+}
