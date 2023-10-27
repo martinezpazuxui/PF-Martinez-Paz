@@ -12247,4 +12247,193 @@ div.footer {
   color: var(--white__1) !important;
 }
 
+/*----------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+/* MEDIA QUERYS */
+@media (min-width: 300px) and (max-width: 520px) {
+  h1.titulo--principal, .titulo--principal.h1 {
+    font-size: 150%;
+  }
+  h2.titulo--secundario, .titulo--secundario.h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  p.texto--principal {
+    text-align: center;
+  }
+  .container__imagen {
+    display: none;
+  }
+  section.secciones__titulo {
+    display: flex;
+    justify-content: center;
+  }
+  div.shows__imagen img {
+    width: 100%;
+    height: 100%;
+  }
+  div.portada__texto-b {
+    text-align: center;
+  }
+  .titulo--compuesto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .titulo--compuesto h2, .titulo--compuesto .h2 {
+    text-justify: center;
+    text-align: center;
+  }
+  div.contacto-formulario {
+    gap: 0px;
+  }
+  div.footer__text {
+    display: none;
+  }
+  div.footer__logo {
+    display: flex;
+    justify-content: center;
+  }
+  div.banner .titulo--banner {
+    font-size: large;
+  }
+  div.contacto-formulario {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 556px) {
+  h1.titulo--principal, .titulo--principal.h1 {
+    text-align: center;
+  }
+  h2.titulo--secundario, .titulo--secundario.h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  p.texto--principal {
+    text-align: center;
+  }
+  div.portada__texto-b {
+    text-align: center;
+  }
+  .container__imagen {
+    display: none;
+  }
+  .navbar-brand img {
+    width: 50%;
+    height: 50%;
+  }
+  div.portada__texto {
+    margin-bottom: 120px;
+  }
+  div.shows__imagen img {
+    width: 100%;
+    height: 100%;
+  }
+  .titulo--compuesto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .titulo--compuesto h2, .titulo--compuesto .h2 {
+    text-justify: center;
+  }
+  div.contacto-formulario {
+    display: flex;
+    flex: 1;
+  }
+  div.footer__text {
+    display: none;
+  }
+  div.footer__logo {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 556px) and (max-width: 768px) {
+  h1.titulo--principal, .titulo--principal.h1 {
+    text-align: center;
+  }
+  h2.titulo--secundario, .titulo--secundario.h2 {
+    text-align: center;
+  }
+  p.texto--principal {
+    text-align: center;
+  }
+  div.portada__texto-b {
+    text-align: center;
+  }
+  .container__imagen {
+    display: none;
+  }
+  .navbar-brand img {
+    width: 50%;
+    height: 50%;
+  }
+  div.shows__imagen img {
+    width: 100%;
+    height: 100%;
+  }
+  .titulo--compuesto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .titulo--compuesto h2, .titulo--compuesto .h2 {
+    text-justify: left;
+  }
+  div.contacto-formulario {
+    display: flex;
+    flex: 1;
+  }
+  div.footer__text {
+    display: none;
+  }
+  div.footer__logo {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  h1.titulo--principal, .titulo--principal.h1 {
+    text-align: center;
+  }
+  p.texto--principal {
+    text-align: center;
+  }
+  .container__imagen {
+    display: none;
+  }
+  .navbar-brand img {
+    width: 50%;
+    height: 50%;
+  }
+  div.shows__imagen img {
+    width: 100%;
+    height: 100%;
+  }
+  .titulo--compuesto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .titulo--compuesto h2, .titulo--compuesto .h2 {
+    text-justify: left;
+  }
+}
+
 /*# sourceMappingURL=custom.css.map */
