@@ -11901,5 +11901,30 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background: var(--black__1);
+}
+
+/*----------------------------------------------------------------------------------*/
+/* COMPONENTES PRINCIPALES */
+/*----------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+/*NAVBAR*/
+/*----------------------------------------------------------------------------------*/
+.navbar {
+  background-color: var(--black__1);
+  font-family: "medium", sans-serif;
+  font-size: x-small;
+}
+.navbar .nav-link:hover {
+  color: var(--green__primary);
+}
+.navbar .menu--desplegable {
+  font-size: x-small;
+}
+.navbar .navbar-brand img {
+  width: 80%;
+  height: 80%;
+}
 
 /*# sourceMappingURL=custom.css.map */

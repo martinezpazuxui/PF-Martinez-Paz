@@ -59,3 +59,38 @@ $secondary: #D9D9D9;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    background: var(--black__1);
+}
+
+/*----------------------------------------------------------------------------------*/
+/* COMPONENTES PRINCIPALES */
+/*----------------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------------------*/
+/*NAVBAR*/
+/*----------------------------------------------------------------------------------*/
+.navbar {
+    background-color: var(--black__1);
+    font-family: 'medium', sans-serif;
+    font-size: x-small;
+
+    .nav-link {
+        &:hover {
+            color: var(--green__primary);
+        }
+    }
+
+    .menu--desplegable {
+        font-size: x-small;
+    }
+
+    .navbar-brand {
+        img {
+            width: 80%;
+            height: 80%;
+        }
+    }
+}
