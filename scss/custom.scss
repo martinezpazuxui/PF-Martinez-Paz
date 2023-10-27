@@ -94,3 +94,181 @@ body {
         }
     }
 }
+
+/*----------------------------------------------------------------------------------*/
+/*TEXTO*/
+/*----------------------------------------------------------------------------------*/
+h1.titulo--principal {
+    font-family: $font-title;
+    /* Usa la familia de fuentes Montserrat-Black y, si no está disponible, usa fuentes sans-serif */
+    color: var(--white__1) !important;
+
+    span {
+        color: var(--green__primary) !important;
+    }
+}
+
+h2.titulo--secundario {
+    font-family: $font-title;
+    font-size: large;
+    color: var(--white__1) !important;
+    padding: 20px 0px;
+
+    span {
+        color: var(--green__primary) !important;
+    }
+}
+
+h3.titulo--terciario {
+    font-family: $font-title;
+    font-size: large;
+    color: var(--white__1) !important;
+
+    span {
+        color: var(--green__primary) !important;
+    }
+}
+
+h4 {
+    span {
+        color: var(--green__primary) !important;
+    }
+}
+
+h5 {
+    font-family: "medium", sans-serif;
+}
+
+p.texto--principal {
+    font-family: 'light', sans-serif;
+    color: var(--white__1) !important;
+
+    span {
+        font-family: "semibold";
+    }
+}
+
+.titulo--compuesto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.separacion--estandar {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.separacion--estandar-2 {
+    margin-bottom: 80px;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*BOTONES*/
+/*----------------------------------------------------------------------------------*/
+.button {
+    display: flex;
+    width: 100%;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--green__primary);
+    font-family: "medium", sans-serif;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.button--primary {
+    @extend .button;
+    color: var(--white__1);
+    background: var(--green__primary);
+
+    &:hover {
+        background: var(--green__dark);
+        color: var(--white__1);
+    }
+}
+
+.button--primary--dark {
+    @extend .button--primary;
+    background: var(--black__1);
+
+    &:hover {
+        background: var(--green__light);
+    }
+}
+
+.button--standar {
+    @extend .button;
+
+    &:hover {
+        background: var(--green__dark);
+        color: var(--white__1);
+    }
+}
+
+.button--secondary {
+    @extend .button;
+    background: none;
+    border: 1px solid var(--white__1);
+    color: var(--white__1);
+
+    &:hover {
+        border: 1px solid var(--green__light);
+        color: var(--green__light);
+    }
+}
+
+.option-bar {
+    display: inline-flex;
+    padding: 10px 30px 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--green__primary);
+}
+
+.active {
+    color: var(--green__primary);
+}
+
+/*----------------------------------------------------------------------------------*/
+/*PORTADAS*/
+/*----------------------------------------------------------------------------------*/
+div.portada__fondo {
+    margin-top: 0px;
+    padding-top: 80px;
+    padding-bottom: 24px;
+}
+
+div.portada__imagen {
+    display: flex;
+    justify-content: end;
+}
+
+div.portada__icons {
+    display: flex;
+    justify-content: end;
+    padding: 0px 0px;
+    margin: 40px 0px;
+    opacity: 60%;
+}
+
+div.card-body {
+    font-family: "semibold";
+    font-size: small;
+
+    .card-text {
+        font-family: "light";
+        font-size: smaller;
+    }
+}
+
+#portada__data {
+    align-content: flex-start;
+}
