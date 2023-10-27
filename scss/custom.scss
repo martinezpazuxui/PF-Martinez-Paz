@@ -292,3 +292,28 @@ div.noticias {
     }
 
 }
+
+/*----------------------------------------------------------------------------------*/
+/*SECCION PROGRAMACIÓN*/
+/*----------------------------------------------------------------------------------*/
+div.programacion {
+
+    background-color: var(--black__1);
+
+    section.programacion {
+        h2 {
+            padding: 40px 0px;
+        }
+    }
+
+    h4 {
+        font-family: "semibold";
+        font-size: small;
+
+    }
+
+    p {
+        font-family: "light";
+        font-size: smaller;
+    }
+}

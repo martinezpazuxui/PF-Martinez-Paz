@@ -12102,4 +12102,22 @@ div.noticias .container__noticias {
   flex: 1;
 }
 
+/*----------------------------------------------------------------------------------*/
+/*SECCION PROGRAMACIÓN*/
+/*----------------------------------------------------------------------------------*/
+div.programacion {
+  background-color: var(--black__1);
+}
+div.programacion section.programacion h2, div.programacion section.programacion .h2 {
+  padding: 40px 0px;
+}
+div.programacion h4, div.programacion .h4 {
+  font-family: "semibold";
+  font-size: small;
+}
+div.programacion p {
+  font-family: "light";
+  font-size: smaller;
+}
+
 /*# sourceMappingURL=custom.css.map */
