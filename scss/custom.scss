@@ -405,7 +405,39 @@ div.card-body {
 a {
     color: var(--white__1);
     text-decoration: none;
+
     &:hover {
         color: var(--green__light);
+    }
+}
+
+/*----------------------------------------------------------------------------------*/
+/*CONTACTO*/
+/*----------------------------------------------------------------------------------*/
+div.contacto {
+
+    .contacto-formulario {
+        display: flex;
+        justify-content: space-between;
+        gap: 120px;
+        align-items: center;
+    }
+
+    background-color: var(--white__1);
+
+    div.contacto-formulario {
+        h2 {
+            text-align: start;
+        }
+
+        h3 {
+            font-family: "semibold";
+            font-size: larger;
+        }
+
+        p {
+            font-family: "light";
+            font-size: small;
+        }
     }
 }
