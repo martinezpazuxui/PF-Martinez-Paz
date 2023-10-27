@@ -11927,4 +11927,165 @@ body {
   height: 80%;
 }
 
+/*----------------------------------------------------------------------------------*/
+/*TEXTO*/
+/*----------------------------------------------------------------------------------*/
+h1.titulo--principal, .titulo--principal.h1 {
+  font-family: "Monument-Extended";
+  /* Usa la familia de fuentes Montserrat-Black y, si no está disponible, usa fuentes sans-serif */
+  color: var(--white__1) !important;
+}
+h1.titulo--principal span, .titulo--principal.h1 span {
+  color: var(--green__primary) !important;
+}
+
+h2.titulo--secundario, .titulo--secundario.h2 {
+  font-family: "Monument-Extended";
+  font-size: large;
+  color: var(--white__1) !important;
+  padding: 20px 0px;
+}
+h2.titulo--secundario span, .titulo--secundario.h2 span {
+  color: var(--green__primary) !important;
+}
+
+h3.titulo--terciario, .titulo--terciario.h3 {
+  font-family: "Monument-Extended";
+  font-size: large;
+  color: var(--white__1) !important;
+}
+h3.titulo--terciario span, .titulo--terciario.h3 span {
+  color: var(--green__primary) !important;
+}
+
+h4 span, .h4 span {
+  color: var(--green__primary) !important;
+}
+
+h5, .h5 {
+  font-family: "medium", sans-serif;
+}
+
+p.texto--principal {
+  font-family: "light", sans-serif;
+  color: var(--white__1) !important;
+}
+p.texto--principal span {
+  font-family: "semibold";
+}
+
+.titulo--compuesto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.separacion--estandar {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.separacion--estandar-2 {
+  margin-bottom: 80px;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*BOTONES*/
+/*----------------------------------------------------------------------------------*/
+.button, .button--secondary, .button--standar, .button--primary, .button--primary--dark {
+  display: flex;
+  width: 100%;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: var(--green__primary);
+  font-family: "medium", sans-serif;
+  font-weight: 700;
+  font-size: medium;
+}
+
+.button--primary, .button--primary--dark {
+  color: var(--white__1);
+  background: var(--green__primary);
+}
+.button--primary:hover, .button--primary--dark:hover {
+  background: var(--green__dark);
+  color: var(--white__1);
+}
+
+.button--primary--dark {
+  background: var(--black__1);
+}
+.button--primary--dark:hover {
+  background: var(--green__light);
+}
+
+.button--standar:hover {
+  background: var(--green__dark);
+  color: var(--white__1);
+}
+
+.button--secondary {
+  background: none;
+  border: 1px solid var(--white__1);
+  color: var(--white__1);
+}
+.button--secondary:hover {
+  border: 1px solid var(--green__light);
+  color: var(--green__light);
+}
+
+.option-bar {
+  display: inline-flex;
+  padding: 10px 30px 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: var(--green__primary);
+}
+
+.active {
+  color: var(--green__primary);
+}
+
+/*----------------------------------------------------------------------------------*/
+/*PORTADAS*/
+/*----------------------------------------------------------------------------------*/
+div.portada__fondo {
+  margin-top: 0px;
+  padding-top: 80px;
+  padding-bottom: 24px;
+}
+
+div.portada__imagen {
+  display: flex;
+  justify-content: end;
+}
+
+div.portada__icons {
+  display: flex;
+  justify-content: end;
+  padding: 0px 0px;
+  margin: 40px 0px;
+  opacity: 60%;
+}
+
+div.card-body {
+  font-family: "semibold";
+  font-size: small;
+}
+div.card-body .card-text {
+  font-family: "light";
+  font-size: smaller;
+}
+
+#portada__data {
+  align-content: flex-start;
+}
+
 /*# sourceMappingURL=custom.css.map */
