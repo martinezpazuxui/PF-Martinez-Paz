@@ -358,3 +358,54 @@ table.border-top-color {
     color: var(--green__primary);
 }
 
+/*----------------------------------------------------------------------------------*/
+/*PORTADA B - 20 AÑOS*/
+/*----------------------------------------------------------------------------------*/
+div.portada__fondo-b {
+    margin-top: 0px;
+    padding-top: 80px;
+    background: url(/assets/img/bg-landing.jpg);
+    background-color: var(--green__primary);
+}
+
+div.portada__texto-b {
+    color: var(--white__1);
+    font-family: "Monument-Extended";
+
+    h2 span {
+        color: var(--black__1);
+    }
+}
+
+div.portada__imagen {
+    display: flex;
+    justify-content: end;
+}
+
+div.portada__icons {
+    display: flex;
+    justify-content: end;
+    padding: 0px 0px;
+}
+
+div.card-body {
+    font-family: "semibold";
+    font-size: small;
+
+    .card-text {
+        font-family: "light";
+        font-size: smaller;
+    }
+}
+
+#portada__data {
+    align-content: flex-start;
+}
+
+a {
+    color: var(--white__1);
+    text-decoration: none;
+    &:hover {
+        color: var(--green__light);
+    }
+}
